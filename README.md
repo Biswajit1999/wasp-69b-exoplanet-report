@@ -1,10 +1,20 @@
-# WASP-69 b — Real TESS Transit Report
+# WASP-69 b: A Warm Saturn with an Escaping Atmosphere
 
+<!-- TARGET-IDENTITY-START -->
+<p align="center">
+  <img src="assets/artist_concept.webp" alt="Artist's interpretation of WASP-69 b near its host star" width="900">
+</p>
+
+<p align="center"><em>AI-generated artist's interpretation informed by the measured system properties; not a direct image.</em></p>
+
+**Warm Saturn · atmospheric escape · TESS photometry**
+
+A low-density warm giant orbiting an active K star, presented as a transit-timing and correlated-noise case study with the broader context of atmospheric escape.
+<!-- TARGET-IDENTITY-END -->
 <p align="center">
   <img src="figures/wasp69b_tess_transit.png" alt="Phase-folded real TESS transit light curve of WASP-69 b" width="760">
 </p>
 
-One real public TESS SPOC light curve; one historical NASA Exoplanet Archive ephemeris; one timing-adjusted, limb-darkened transit fit.
 
 **[Open the full report](https://biswajit1999.github.io/wasp-69b-exoplanet-report/)** — the live GitHub Pages version.
 
