@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "project": "WASP-69 b: A Warm Saturn with an Escaping Atmosphere",
+  "repository": "https://github.com/Biswajit1999/wasp-69b-exoplanet-report",
+  "files": [
+    {
+      "label": "Data source notes",
+      "path": "data/SOURCE.md",
+      "role": "Data and provenance",
+      "bytes": 2165,
+      "sha256": "66912fbe4e85f4c7d081f2ef93d4ace254d192b864d56648e62d5fd7e32188c8",
+      "hash_basis": "LF-normalised text",
+      "format": "MD"
+    },
+    {
+      "label": "System parameters",
+      "path": "data/system_parameters.csv",
+      "role": "Data and provenance",
+      "bytes": 493,
+      "sha256": "e80db626b787bfa787df64762c52a0a2978c4b78db947295682048828580cd48",
+      "hash_basis": "LF-normalised text",
+      "format": "CSV",
+      "rows": 1,
+      "columns": 21,
+      "headers": [
+        "pl_name",
+        "hostname",
+        "ra",
+        "dec",
+        "pl_orbper",
+        "pl_tranmid",
+        "pl_trandur"
+      ],
+      "preview": [
+        [
+          "WASP-69 b",
+          "WASP-69",
+          "315.0259661",
+          "-5.094857",
+          "3.86813881",
+          "2455748.83428",
+          "2.1869"
+        ]
+      ]
+    },
+    {
+      "label": "Tess2022217014003 s0055 0000000248853232 0242 s lc",
+      "path": "data/tess2022217014003-s0055-0000000248853232-0242-s_lc.fits",
+      "role": "Data and provenance",
+      "bytes": 1987200,
+      "sha256": "ee0291c2f014296fa47b06fa7eb47a16a79fe4679841ce203518aaa5620cbd26",
+      "hash_basis": "exact bytes",
+      "format": "FITS"
+    },
+    {
+      "label": "Summary statistics",
+      "path": "figures/summary_statistics.csv",
+      "role": "Tables and numerical results",
+      "bytes": 1171,
+      "sha256": "fd7a0ba2b227273b7ae9fec8a2acbdcb897474bc75800e4680ed1c38a5b2c809",
+      "hash_basis": "LF-normalised text",
+      "format": "CSV",
+      "rows": 36,
+      "columns": 3,
+      "headers": [
+        "quantity",
+        "value",
+        "unit"
+      ],
+      "preview": [
+        [
+          "sector",
+          "55",
+          "TESS sector"
+        ],
+        [
+          "period_days",
+          "3.86813881",
+          "days; NASA Exoplanet Archive"
+        ],
+        [
+          "published_duration_hours",
+          "2.1869",
+          "hours; NASA Exoplanet Archive"
+        ],
+        [
+          "a_over_rstar",
+          "12.1609857678",
+          "fixed from saved a and stellar radius"
+        ]
+      ]
+    },
+    {
+      "label": "Multisector statistics",
+      "path": "figures/multisector_statistics.csv",
+      "role": "Tables and numerical results",
+      "bytes": 351,
+      "sha256": "90b3b67c7d7a7d166b41a994787354383feb8021d89ca1e5824c424684f59716",
+      "hash_basis": "LF-normalised text",
+      "format": "CSV",
+      "rows": 1,
+      "columns": 13,
+      "headers": [
+        "sector",
+        "filename",
+        "transit_events",
+        "n_points",
+        "transit_supported",
+        "delta_bic",
+        "timing_shift_hours"
+      ],
+      "preview": [
+        [
+          "55",
+          "tess2022217014003-s0055-0000000248853232-0242-s_lc.fits",
+          "4",
+          "1573",
+          "True",
+          "134924.8131",
+          "-0.002275553938"
+        ]
+      ]
+    },
+    {
+      "label": "Wasp69b depth consistency",
+      "path": "figures/wasp69b_depth_consistency.png",
+      "role": "Figures",
+      "bytes": 59331,
+      "sha256": "fbf741f3c05f3ffb626c928912b912d4c8dca7b72a2256afa3a2aebff66fc72d",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    },
+    {
+      "label": "Wasp69b multisector transits",
+      "path": "figures/wasp69b_multisector_transits.png",
+      "role": "Figures",
+      "bytes": 66297,
+      "sha256": "6c4518e3d8094878f5cb83b660567065115cfad07f95aae4b833e86a3c47e3c1",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    },
+    {
+      "label": "Wasp69b noise diagnostics",
+      "path": "figures/wasp69b_noise_diagnostics.png",
+      "role": "Figures",
+      "bytes": 73535,
+      "sha256": "ab57c25ffaff2367a81aee8aa836d080cbc314b8afa97c8713b1286c9f66b9e1",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    },
+    {
+      "label": "Wasp69b tess transit",
+      "path": "figures/wasp69b_tess_transit.png",
+      "role": "Figures",
+      "bytes": 198612,
+      "sha256": "d7534c9e4e8f4cdbc4e7aa79483aae76fc6e588b71c5e232bdac46380546ac64",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    }
+  ]
+}

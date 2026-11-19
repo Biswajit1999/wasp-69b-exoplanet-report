@@ -1,0 +1,51 @@
+{
+  "project": "WASP-69 b: A Warm Saturn with an Escaping Atmosphere",
+  "repository": "https://github.com/Biswajit1999/wasp-69b-exoplanet-report",
+  "files": [
+    {
+      "label": "Data source notes",
+      "path": "data/SOURCE.md",
+      "role": "Data and provenance"
+    },
+    {
+      "label": "System parameters",
+      "path": "data/system_parameters.csv",
+      "role": "Data and provenance"
+    },
+    {
+      "label": "Tess2022217014003 s0055 0000000248853232 0242 s lc",
+      "path": "data/tess2022217014003-s0055-0000000248853232-0242-s_lc.fits",
+      "role": "Data and provenance"
+    },
+    {
+      "label": "Summary statistics",
+      "path": "figures/summary_statistics.csv",
+      "role": "Tables and numerical results"
+    },
+    {
+      "label": "Multisector statistics",
+      "path": "figures/multisector_statistics.csv",
+      "role": "Tables and numerical results"
+    },
+    {
+      "label": "Wasp69b depth consistency",
+      "path": "figures/wasp69b_depth_consistency.png",
+      "role": "Figures"
+    },
+    {
+      "label": "Wasp69b multisector transits",
+      "path": "figures/wasp69b_multisector_transits.png",
+      "role": "Figures"
+    },
+    {
+      "label": "Wasp69b noise diagnostics",
+      "path": "figures/wasp69b_noise_diagnostics.png",
+      "role": "Figures"
+    },
+    {
+      "label": "Wasp69b tess transit",
+      "path": "figures/wasp69b_tess_transit.png",
+      "role": "Figures"
+    }
+  ]
+}
